@@ -150,6 +150,33 @@ Once you click "Close pull request", the PR will be marked as closed. The status
 ![image](https://github.com/user-attachments/assets/cb56288f-c267-424a-a579-9f6f3d2b09d3)
 
 
+# Rules and Best Practices for Pull Requests
+
+
+1. **Follow the Contribution Guidelines**:
+   - Many repositories have a `CONTRIBUTING.md` file. Make sure to read and follow the guidelines provided there.
+
+2. **Write Clear Commit Messages**:
+   - Commit messages should be clear and descriptive. They should explain what the commit does and why.
+
+3. **Keep PRs Small and Focused**:
+   - Try to keep your pull requests focused on a single issue or feature. This makes it easier for reviewers to understand and review your changes.
+
+4. **Test Your Changes**:
+   - Make sure your changes work as expected and do not introduce new bugs. Run any existing tests and add new tests if necessary.
+
+5. **Update Documentation**:
+   - If your changes require updates to the documentation, make sure to include those updates in your PR.
+
+6. **Respond to Feedback**:
+   - Be open to feedback from reviewers. Make the necessary changes and push them to the same branch. The PR will automatically update.
+
+7. **Squash Commits (if necessary)**:
+   - If you have multiple commits, consider squashing them into a single commit to keep the history clean. This can be done using interactive rebase:
+   ```bash
+   git rebase -i HEAD~n
+   ```
+   Where `n` is the number of commits you want to squash.
 
 
 # Contact Information
