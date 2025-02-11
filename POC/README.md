@@ -118,31 +118,31 @@ Provides context for reviewers to understand your changes.
 
 **1. Navigate to the Pull Request:**
 
-Go to the repository where the PR was submitted.
+ * Go to the repository where the PR was submitted.
 
-Click on the "Pull requests" tab.
+ * Click on the "Pull requests" tab.
 
-Find the PR you want to close from the list and click on it to open the PR page.
+ * Find the PR you want to close from the list and click on it to open the PR page.
 
 **2. Review the PR (Optional):**
 
-Before closing the PR, you may want to review the changes and comments to ensure that closing it is the appropriate action.
+ * Before closing the PR, you may want to review the changes and comments to ensure that closing it is the appropriate action.
 
 **3. Close the PR:**
 
-Scroll down to the bottom of the PR page.
+ * Scroll down to the bottom of the PR page.
 
-Click the "Close pull request" button. This button is usually located near the comment box.
+ * Click the "Close pull request" button. This button is usually located near the comment box.
 
 **4. Add a Comment :**
 
-You can add a comment explaining why you are closing the PR. This is especially useful if the PR is being closed without being merged.
+ * You can add a comment explaining why you are closing the PR. This is especially useful if the PR is being closed without being merged.
 
-Type your comment in the comment box and click "Comment" if you want to leave a note.
+ * Type your comment in the comment box and click "Comment" if you want to leave a note.
 
 **5. Confirm the Closure:**
 
-Once you click "Close pull request", the PR will be marked as closed. The status will change to "Closed", and the PR will no longer be open for further changes or comments unless it is reopened.
+ * Once you click "Close pull request", the PR will be marked as closed. The status will change to "Closed", and the PR will no longer be open for further changes or comments unless it is reopened.
 
 ![image](https://github.com/user-attachments/assets/5c0a3db8-0035-49df-9c68-dea3464e242f)
 
