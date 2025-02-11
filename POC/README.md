@@ -36,7 +36,7 @@ Navigates to the folder where your project is stored locally.
 ## **4. Create a new branch and switch to the same branch**
 
 ```
-git checkout -b <new_branch>            #Create and switch to the new branch at same time
+git checkout -b <new_branch>            ( Create and switch to the new branch at same time )
 ```
 or
 ```
@@ -116,7 +116,7 @@ Provides context for reviewers to understand your changes.
 
 **NOTE:-** If you have Closing a Pull Request:-
 
-**1.** Navigate to the Pull Request:
+**1. Navigate to the Pull Request:**
 
 Go to the repository where the PR was submitted.
 
@@ -124,23 +124,23 @@ Click on the "Pull requests" tab.
 
 Find the PR you want to close from the list and click on it to open the PR page.
 
-**2.** Review the PR (Optional):
+**2. Review the PR (Optional):**
 
 Before closing the PR, you may want to review the changes and comments to ensure that closing it is the appropriate action.
 
-**3.** Close the PR:
+**3. Close the PR:**
 
 Scroll down to the bottom of the PR page.
 
 Click the "Close pull request" button. This button is usually located near the comment box.
 
-**4.** Add a Comment :
+**4. Add a Comment :**
 
 You can add a comment explaining why you are closing the PR. This is especially useful if the PR is being closed without being merged.
 
 Type your comment in the comment box and click "Comment" if you want to leave a note.
 
-**5.** Confirm the Closure:
+**5. Confirm the Closure:**
 
 Once you click "Close pull request", the PR will be marked as closed. The status will change to "Closed", and the PR will no longer be open for further changes or comments unless it is reopened.
 
