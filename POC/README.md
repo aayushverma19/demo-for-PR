@@ -90,10 +90,17 @@ git push --set-upstream origin <new_branch>  #links your (new_branch) to the rem
 
 ## **12. Access the "Pull Requests" section and initiate a new pull request.**
 
+![image](https://github.com/user-attachments/assets/8560c350-0aab-485f-8d4e-36ee878b03a0)
+
 ## **13. Select the branch you wish to merge with the base branch**
 
+![image](https://github.com/user-attachments/assets/fe74d57c-064b-4f63-af37-234f7fdf9cfe)
 
 ## **14. Submit the pull request with a title and comments.**
+
+![image](https://github.com/user-attachments/assets/51bfa837-966d-4d98-aee9-02094ee8553e)
+
+###
 
 **NOTE:-** If you have Closing a Pull Request:-
 
@@ -125,12 +132,23 @@ Type your comment in the comment box and click "Comment" if you want to leave a 
 
 Once you click "Close pull request", the PR will be marked as closed. The status will change to "Closed", and the PR will no longer be open for further changes or comments unless it is reopened.
 
-## **15. Merge the pull request.**
+![image](https://github.com/user-attachments/assets/5c0a3db8-0035-49df-9c68-dea3464e242f)
 
-## **16. Review for any merge conflicts after submission.** 
+
+## **15. Merge the pull request.** 
+
+![image](https://github.com/user-attachments/assets/3c511a76-cdba-4e55-8dee-0cc0a80e16a1)
+
+
+## **16. Review for any merge conflicts after submission.**
+
+![image](https://github.com/user-attachments/assets/bf70d09a-07b2-4cc9-8d6a-a61e9eecb86c)
 
 
 ## **17. If the branch is no longer required, delete it after merging the changes.**
+
+![image](https://github.com/user-attachments/assets/cb56288f-c267-424a-a579-9f6f3d2b09d3)
+
 
 
 
