@@ -2,9 +2,6 @@
 ![image](https://github.com/user-attachments/assets/c1be5da0-5513-4335-b0d4-d3ebacbf07b9)
 
 
-https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZzhmNmh0cmFwbzA3dWFqcHl4dThnaXpjemNwMHZ1NG1ydmQ5eDE4NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/hqrdSW7r1DFsDZwSnR/giphy.gif
-
-
 # GitLab Features
 
 | **Author** | **Created on** | **Version** | **Last updated by** | **Internal Reviewer** | **Reviewer L0** | **Reviewer L1** | **Reviewer L2** |
