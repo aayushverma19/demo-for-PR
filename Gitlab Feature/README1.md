@@ -1,7 +1,7 @@
-# GitLab Features
 
 ![image](https://github.com/user-attachments/assets/c1be5da0-5513-4335-b0d4-d3ebacbf07b9)
 
+# GitLab Features
 
 | **Author** | **Created on** | **Version** | **Last updated by** | **Internal Reviewer** | **Reviewer L0** | **Reviewer L1** | **Reviewer L2** |
 |------------|----------------|-------------|----------------------|-----------------------|----------------|----------------|----------------|
