@@ -6,8 +6,6 @@
 
 ---
 
----
-
 # Table of Contents
 
 1. [Introduction to GitLab](#1-introduction-to-gitlab)  
