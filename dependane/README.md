@@ -6,6 +6,16 @@
 
 ---
 
+### **Table of Contents**
+
+  - [1. Introduction](#introduction)
+  - [2. Pre Installation](#pre-installation-checklist)
+  - [3. Install Development Dependencies](#install-development-dependencies)
+  - [4. Conclusion](#conclusion)
+  - [5. Contact Information](#contact-information)
+  - [6. References](#references)
+
+
 ### **Introduction**
 
 When working on Python projects, especially those involving database integrations or packages with native extensions, having the right development tools and libraries is essential. This guide will walk you through the pre-installation steps and the installation command, ensuring your environment is ready for seamless development.
@@ -52,7 +62,7 @@ Before running the installation command, follow these steps to prepare your syst
 
 ---
 
-### **Command to Install Development Dependencies**
+### **Install Development Dependencies**
 
 Once the pre-installation checklist is complete, run the following command to install the necessary libraries and tools:
 
@@ -72,9 +82,9 @@ Installing development dependencies is a crucial step in setting up a robust Pyt
 
 ## Contact Information
 
-| **Name**       | **Email Address**            |
+| **Name**        | **Email Address**             |
 |-----------------|------------------------------|
-| Aayush Verma    | <aayushverma4481@gmail.com>     |
+| Aayush Verma    | <aayushverma4481@gmail.com>  |
 
 ## References
 
