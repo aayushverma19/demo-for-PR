@@ -1,4 +1,4 @@
-#  Install Python Package POC
+#  Install Python-Dev Dependencies
 
 | **Author** | **Created on** | **Version** | **Last updated by**|**Internal Reviewer** |**Reviewer L0** |**Reviewer L1** |**Reviewer L2** |
 |------------|---------------------------|-------------|---------------------|-------------|-------------|-------------|-------------|
@@ -6,7 +6,7 @@
 
 ---
 
-### **Setting Up Development Dependencies for Python Projects**
+### **Introduction**
 
 When working on Python projects, especially those involving database integrations or packages with native extensions, having the right development tools and libraries is essential. This guide will walk you through the pre-installation steps and the installation command, ensuring your environment is ready for seamless development.
 
