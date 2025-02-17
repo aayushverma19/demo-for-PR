@@ -33,16 +33,6 @@ There are various types of repositories that cater to different aspects of DevOp
    - Tools: **GitHub**, **GitLab**, **Bitbucket**.
    - Features: Code versioning, branching, pull requests, code reviews.
    - Example: `github.com/company/repo`.
-### 2. **Artifact Repositories**
-   - Store build artifacts (e.g., binaries, libraries) produced by the CI pipeline.
-   - Tools: **Artifactory**, **Nexus**, **Azure Artifacts**.
-   - Features: JFrog Artifact storage, versioning, dependency management.
-   - Example: `artifactory.company.com/repo/project-artifacts`.
-### 3. **Container Repositories**
-   - Host container images that are ready for deployment.
-   - Tools: **Docker Hub**, **Amazon ECR**, **Google Container Registry**.
-   - Features: Versioned container images, security scanning, tag management.
-   - Example: `dockerhub.com/company/project-container`.
 ### 4. **Infrastructure-as-Code (IaC) Repositories**
    - Store infrastructure code used to provision environments (e.g., Terraform, Ansible).
    - Tools: **GitHub**, **GitLab**, **Bitbucket** (for code), **Terraform Registry**.
@@ -53,6 +43,41 @@ There are various types of repositories that cater to different aspects of DevOp
    - Tools: **Ansible Galaxy**, **Puppet Forge**, **Chef Supermarket**.
    - Features: Versioning of configuration files, role/playbook management.
    - Example: `github.com/company/configurations`.
+
+
+### 1. **Source Code Repositories**
+   - These store application source code and project-related files.
+   - Tools: **GitHub**, **GitLab**, **Bitbucket**.
+   - Features: Code versioning, branching, pull requests, code reviews.
+   - Example: `github.com/company/repo`.
+
+### 2. **Terraform Modules Repository**
+   - Stores reusable Terraform configurations to promote modularity, consistency, and reduced duplication across different projects.
+   - Tools: **GitHub**, **GitLab**, **Bitbucket**, **Terraform Registry**.
+   - Features: Modular Terraform components, reusable infrastructure code, reduced duplication.
+   - Example: `github.com/company/terraform-modules`.
+
+### 3. **Jenkins Repository**
+   - Stores Jenkins pipeline definitions, job configurations, and scripts to maintain CI/CD as code. It helps in tracking CI/CD pipeline changes.
+   - Tools: **GitHub**, **GitLab**, **Bitbucket**, **Jenkins**.
+   - Features: CI/CD pipeline automation, shared libraries, job version control.
+   - Example: `github.com/company/jenkins-pipelines`.
+
+### 4. **Infrastructure-as-Code (IaC) Repositories**
+   - Store infrastructure code used to provision environments (e.g., Terraform, Ansible).
+   - Tools: **GitHub**, **GitLab**, **Bitbucket** (for code), **Terraform Registry**.
+   - Features: Infrastructure versioning, modular infrastructure, collaboration.
+   - Example: `github.com/company/infra-repo`.
+
+### 5. **Configuration Management Repositories**
+   - Store configuration files for environments or applications.
+   - Tools: **Ansible Galaxy**, **Puppet Forge**, **Chef Supermarket**.
+   - Features: Versioning of configuration files, role/playbook management.
+   - Example: `github.com/company/configurations`.
+
+
+
+
 ---
 ##  Features of DevOps Repositories
 | Feature                        | Description                                                                 |
