@@ -9,9 +9,9 @@
 2. [Overall Component Architecture Flow](#overall-component-architecture-flow)
    * [Frontend Flow](#frontend-flow)
    * [Backend Management](#backend-management)
-      * [Employee API](#employee-api)
-      * [The Attendance API](#the-attendance-api)
-      * [The Salary API](#the-salary-api)
+      * [Employee API](#1-employee-api)
+      * [The Salary API](#2-the-salary-api)
+      * [The Attendance API](#3-the-attendance-api)
     * [Database Management](#database-management)
 
 3. [User Flow](#user-flow)
@@ -147,10 +147,8 @@ This document gives a clear overview of full-stack development for the OT-MICROS
 |-------------|---------------------------|
 | Aayush Verma | <aayush.verma@mygurukulam.co>   |
 
-
 ## References
 
-| **Link**                                                | **Description**                                    |
-|-----------------------------------------------------------------------------------------------------------------------------|------
-
-|[API Repo Link](https://github.com/OT-MICROSERVICES) | APIs Documentation |
+| **Link**                                                                                                                     | **Description**                                    |
+|-----------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|
+| [API Repo Link](https://github.com/OT-MICROSERVICES) | APIs Documentation    |
