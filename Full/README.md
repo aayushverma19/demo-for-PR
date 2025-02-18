@@ -1,8 +1,5 @@
 # Fullstack Documentation
 
-#    **Attendance API POC**
-
-
 | **Author** | **Created on** | **Version** | **Last updated by**|**Last Edited On**|**Internal Reviewer** |**Reviewer L0** |**Reviewer L1** |**Reviewer L2** |
 |------------|---------------------------|-------------|----------------|-----|-------------|-------------|-------------|-------------|
 | Aayush Verma|   18-02-2025             | v1          | Aayush Verma   |-02-2025    |  Komal Jaiswal | Akshit kapil | Taranddeep | Abhishek  Dubey|
@@ -11,11 +8,11 @@
 1. [Introduction](#introduction)
 2. [Overall Component Architecture Flow](#overall-component-architecture-flow)
    * [Frontend Flow](#frontend-flow)
-    * [Database Management](#database-management)
-      *  [Employee API](#employee-api)
+   * [Backend Management](#backend-management)
+      * [Employee API](#employee-api)
       * [The Attendance API](#the-attendance-api)
       * [The Salary API](#the-salary-api)
-
+    * [Database Management](#database-management)
 
 3. [User Flow](#user-flow)
 5. [Conclusion](#conclusion)
@@ -47,10 +44,10 @@ The frontend application have dependencies on other REST API of OT-Microservices
 
 To run the application successfully, These things should be configured
 For Refrence Links Below
-* [Frontend POC](https://github.com/avengers-p11/Documentation/blob/main/OT%20MS%20Understanding/Frontend%20/Frontend%20POC/README.md) 
-* [Employee API](https://github.com/avengers-p11/Documentation/blob/main/OT%20MS%20Understanding/Employee-api/Employee%20detailed%20documentation/README.md)
-* [Attendance API](https://github.com/avengers-p11/Documentation/blob/main/OT%20MS%20Understanding/Attendance/Attendance%20POC/README.md)
-* [Salary API](https://github.com/avengers-p11/Documentation/blob/main/OT%20MS%20Understanding/Salary/Salary%20Documentation/README.md)
+* [Frontend POC]() 
+* [Employee API]()
+* [Attendance API]()
+* [Salary API]()
 
 
 ### Backend Management
@@ -65,10 +62,10 @@ Create this same as above.
 Pre-Requisites
 For running the application, we need following things configured:
 For Refrence Links Below
-* [Documentation](https://github.com/avengers-p11/Documentation/blob/main/OT%20MS%20Understanding/Employee-api/Employee%20detailed%20documentation/README.md) 
-* [Employee POC](https://github.com/avengers-p11/Documentation/blob/main/OT%20MS%20Understanding/Employee-api/Employee%20-%20POC/README.md) 
-* [ScyllaDB](https://github.com/avengers-p11/Documentation/blob/main/OT%20MS%20Understanding/ScyllaDB/ScyllaDB%20Documentation/README.md)
-* [Redis](https://github.com/avengers-p11/Documentation/blob/main/OT%20MS%20Understanding/Redis/Redis%20Documentation/README.md)
+* [Documentation]() 
+* [Employee POC]() 
+* [ScyllaDB]()
+* [Redis]()
 
 #### 2. The Salary API
 The Salary API is a Java-based microservice that handles all salary-related transactions and records within the OT-Microservices stack. It is platform-independent, meaning it can run on various operating systems. However, to run this application, a Java Runtime Environment (JRE) is required.
@@ -77,11 +74,11 @@ The Salary API is a Java-based microservice that handles all salary-related tran
 
 We only need maven as build tool, but for running the application following things are required
 For Refrence Link are below 
-* [Documentation](https://github.com/avengers-p11/Documentation/blob/main/OT%20MS%20Understanding/Salary/Salary%20Documentation/README.md)
-* [Salary POC](https://github.com/avengers-p11/Documentation/blob/main/OT%20MS%20Understanding/Salary/Salary%20POC/README.md)
-* [ScyllaDB](https://github.com/avengers-p11/Documentation/blob/main/OT%20MS%20Understanding/ScyllaDB/ScyllaDB%20Documentation/README.mda)
-* [Redis](https://github.com/avengers-p11/Documentation/blob/main/OT%20MS%20Understanding/Redis/Redis%20Documentation/README.md)
-* [Java](https://maven.apache.org/)
+* [Documentation]()
+* [Salary POC]()
+* [ScyllaDB]()
+* [Redis]()
+* [Java]()
 
 #### 3. The Attendance api
 The Attendance REST API is a Python-based microservice that manages all attendance-related transactions within the OT-Microservices stack. This application is cross-platform, meaning it can run on different operating systems. The only requirement to run it is the Python runtime environment.
@@ -93,22 +90,22 @@ To run the application successfully, we need these things configured
 PostgresSQL as a primary database for storing all the attendance records
 Redis as cache management middleware for storing all API response
 Below Have Refrence Links in detail
-* [Documentation](https://github.com/avengers-p11/Documentation/blob/main/OT%20MS%20Understanding/Attendance/Attendance%20Documentation/README.md) 
-* [Attendance POC](https://github.com/avengers-p11/Documentation/blob/main/OT%20MS%20Understanding/Attendance/Attendance%20POC/README.md) 
-* [PostgresSQL](https://github.com/avengers-p11/Documentation/blob/main/OT%20MS%20Understanding/PostgresSQL/PostgresSQL-documentation.md) 
-* [Redis](https://github.com/avengers-p11/Documentation/blob/main/OT%20MS%20Understanding/Redis/Redis%20Documentation/README.md)
-* [Poetry](https://www.digitalocean.com/community/tutorials/how-to-install-poetry-to-manage-python-dependencies-on-ubuntu-22-04)
-* [Liquibase](https://docs.liquibase.com/start/install/liquibase-linux-debian-ubuntu.html)
+* [Documentation]() 
+* [Attendance POC]() 
+* [PostgresSQL]()
+* [Redis]()
+* [Poetry]()
+* [Liquibase]()
 
 ### Database Management
 
 Database management is responsible for storing, accessing, and managing data for an application. It involves tasks such as creating databases, maintaining their performance, and optimizing them to ensure efficient data handling.
 For Refrence Links Below
-* [ScyllaDB](https://github.com/avengers-p11/Documentation/blob/main/OT%20MS%20Understanding/ScyllaDB/ScyllaDB%20Documentation/README.md)
+* [ScyllaDB]()
   
-* [PostgresSQL](https://github.com/avengers-p11/Documentation/blob/main/OT%20MS%20Understanding/PostgresSQL/PostgresSQL-documentation.md)
+* [PostgresSQL]()
   
-* [Redis](https://github.com/avengers-p11/Documentation/blob/main/OT%20MS%20Understanding/Redis/Redis%20Documentation/README.md)
+* [Redis]()
 
 ### User Flow
 
@@ -148,14 +145,12 @@ This document gives a clear overview of full-stack development for the OT-MICROS
 
 | **Name**    | **Email address**         |
 |-------------|---------------------------|
-| Aayush Verma | <aayushverma4481@gmail.com>   |
-
-## Refrences 
-
-| Links          |
-| ------------- |
-|    https://github.com/OT-MICROSERVICES  | 
-|     | 
+| Aayush Verma | <aayush.verma@mygurukulam.co>   |
 
 
+## References
 
+| **Link**                                                | **Description**                                    |
+|-----------------------------------------------------------------------------------------------------------------------------|------
+
+|[API Repo Link](https://github.com/OT-MICROSERVICES) | APIs Documentation |
