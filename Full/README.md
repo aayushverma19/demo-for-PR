@@ -39,7 +39,7 @@ Front-end development focuses on the part of a web application that users see an
 ## Pre-Requisites
 The frontend application have dependencies on other REST API of OT-Microservices.
 
-<img width="656" alt="image" src="https://github.com/user-attachments/assets/c1e1609d-7c6d-4093-b05e-4a18a37562cf">
+![image](https://github.com/user-attachments/assets/c8e662c8-7983-49bf-b30a-959ebab5d6f7)
 
 
 To run the application successfully, These things should be configured
@@ -55,8 +55,7 @@ For Refrence Links Below
 #### 1. Employee-API
 The Employee REST API is a Go-based microservice that manages all employee-related transactions within the OT-Microservices stack. It is fully platform-independent, meaning it can run on any type of operating system or platform.
 
-<img width="656" alt="image" src="https://github.com/user-attachments/assets/79e8d9d9-0f77-4dee-9abe-dd2aff3018fb">
-
+<img width="1294" alt="Screenshot 2025-02-18 at 6 00 50 PM" src="https://github.com/user-attachments/assets/03142fc4-65a8-45e9-8e47-b92ea993e5fd" />
 
 Create this same as above.
 Pre-Requisites
@@ -70,7 +69,8 @@ For Refrence Links Below
 #### 2. The Salary API
 The Salary API is a Java-based microservice that handles all salary-related transactions and records within the OT-Microservices stack. It is platform-independent, meaning it can run on various operating systems. However, to run this application, a Java Runtime Environment (JRE) is required.
 
-<img width="653" alt="image" src="https://github.com/user-attachments/assets/e580ede2-8432-40d8-988c-c2fb33440827">
+<img width="1294" alt="Screenshot 2025-02-18 at 6 01 49 PM" src="https://github.com/user-attachments/assets/35508d17-3ddd-4a71-a6a0-44a1573cb2b3" />
+
 
 We only need maven as build tool, but for running the application following things are required
 For Refrence Link are below 
@@ -83,7 +83,9 @@ For Refrence Link are below
 #### 3. The Attendance api
 The Attendance REST API is a Python-based microservice that manages all attendance-related transactions within the OT-Microservices stack. This application is cross-platform, meaning it can run on different operating systems. The only requirement to run it is the Python runtime environment.
 
-<img width="656" alt="image" src="https://github.com/user-attachments/assets/2d440cc3-520d-4d35-998f-a525744cb533">
+
+![image](https://github.com/user-attachments/assets/93a1d514-0ab6-4ae7-8a94-e47a914bf8a3)
+
 
 To run the application successfully, we need these things configured
 
