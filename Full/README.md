@@ -29,6 +29,7 @@ Full Stack Development is the process of creating a complete web application tha
 
 **Database Management**: This part is about storing and organizing all the data the application needs. It makes sure data can be easily accessed and managed.
 
+---
 
 ## Overall Component Architecture Flow
 
@@ -49,6 +50,7 @@ For Refrence Links Below
 * [Attendance API]()
 * [Salary API]()
 
+---
 
 ### Backend Management
 
@@ -66,6 +68,8 @@ For Refrence Links Below
 * [ScyllaDB]()
 * [Redis]()
 
+---
+
 #### 2. The Salary API
 The Salary API is a Java-based microservice that handles all salary-related transactions and records within the OT-Microservices stack. It is platform-independent, meaning it can run on various operating systems. However, to run this application, a Java Runtime Environment (JRE) is required.
 
@@ -79,6 +83,8 @@ For Refrence Link are below
 * [ScyllaDB]()
 * [Redis]()
 * [Java]()
+
+---
 
 #### 3. The Attendance api
 The Attendance REST API is a Python-based microservice that manages all attendance-related transactions within the OT-Microservices stack. This application is cross-platform, meaning it can run on different operating systems. The only requirement to run it is the Python runtime environment.
@@ -99,6 +105,8 @@ Below Have Refrence Links in detail
 * [Poetry]()
 * [Liquibase]()
 
+---
+
 ### Database Management
 
 Database management is responsible for storing, accessing, and managing data for an application. It involves tasks such as creating databases, maintaining their performance, and optimizing them to ensure efficient data handling.
@@ -109,9 +117,10 @@ For Refrence Links Below
   
 * [Redis]()
 
+---
+
 ### User Flow
 
----
 
 | **User Registration Flow** |                
 |---------------|
