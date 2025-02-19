@@ -1,10 +1,13 @@
 <p align="center">
   <img src="./assets/logo.svg" alt="Logo" width="200">
 </p>
+
 # OT Microservices Full Stack Documentation
+
 | **Author**            | **Created on** | **Version** | **Last updated by**       | **Last edited on** | **Reviewer**      |
 |-----------------------|----------------|-------------|----------------------------|---------------------|-------------------|
 | Aman Raj      | 17-02-2025       | Version 1 | Aman Raj         | 17-02-2025       | Siddharth Pawar    |
+
 ## Table Of Contents
 1. [Introduction](#introduction)
 2. [Prerequisites](#pre-requisites)
@@ -13,15 +16,21 @@
 5. [Full Stack Setup](#full-stack-setup)
 6. [Contact Information](#contact-information)
 7. [References](#references)
+   
 ## Introduction
+
 OT Microservice Application is a full-stack system designed to efficiently manage workforce operations. It includes dedicated APIs for employees, salaries, and attendance, ensuring smooth and accurate processing.
 <br/>
+
 ### Key Technologies & Architecture:
+
 :white_check_mark: **PostgreSQL –** A robust relational database at the core, ensuring structured data integrity.<br/>
 :white_check_mark: **ScyllaDB –** A high-performance NoSQL database for managing large datasets with scalability.<br/>
 :white_check_mark: **Redis –** An in-memory data store enhancing system responsiveness and agility.
 With a microservices-driven approach, our application ensures scalability, flexibility, and seamless data management, making it a powerful and efficient solution for workforce operations.
+
 ## Pre-Requisites
+
 Before starting the setup, carefully review the documentation and install all necessary dependencies. Following a step-by-step approach ensures a smooth and efficient setup of the OT Microservices Full Stack system.
 ### Applications
 | **Application Name**           | **Port** | **Dependency**                | **Language**                                                                                                                                          | **Description**                                                                                       |
@@ -31,8 +40,11 @@ Before starting the setup, carefully review the documentation and install all ne
 | [salary](https://github.com/Snaatak-Skyops/Documentation/blob/2c47921cb0fb386434232b2944d3ca1005463f11/OT%20MS%20Understanding/Application/Salary/POC/README.md)             | 8080             | ScyllaDb                 | <img src="https://cdn.worldvectorlogo.com/logos/java.svg" height="32" width="32">                                                                     | Salary is also a java based application which creates and manages employee's salary information.    |
 | [frontend](https://github.com/Snaatak-Skyops/Documentation/blob/6627e81ec43478acef6e24dc1f163f87ab3eed46/OT%20MS%20Understanding/Application/Frontend/README.md)         | 3000             | attendance, employeee, salary | <img src="https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg" height="32" width="32">                                                         | Frontend is written in ReactJS.                                     |
 For further information, click on the application name.
+
 ## Databases
+
 These applications are using two kinds of databases.
+
 | **Application Name** | **Default Port** | **Dependency** | **Description**                                                                                               |
 |----------------------|------------------|----------------|---------------------------------------------------------------------------------------------------------------|
 | [PostgreSQL](https://github.com/Snaatak-Skyops/Documentation/blob/194ab91c7b41b9be08fac2b9c0e08558a6d85162/OT%20MS%20Understanding/Database/PostgreSQL/README.md) | 5432             | -              | PostgreSQL is being used as a structured database that employees' attendance information.  |
