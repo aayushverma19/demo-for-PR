@@ -66,10 +66,10 @@ If any of these are found in the code, they could be a security risk because att
 | **Avoid Data Leaks**  | By removing sensitive data before code is published, you avoid exposing it to hackers.               |
 
 ### Proof of Concept (POC)
-![Screenshot from 2024-12-22 16-51-00](https://github.com/user-attachments/assets/a406f9f6-1379-4ab0-92d9-667788071874)
-![Screenshot from 2024-12-22 16-51-52](https://github.com/user-attachments/assets/700f960e-8279-42da-b70f-ccfee6062398)
 
+<img width="1612" alt="Screenshot 2025-02-24 at 8 15 09 PM" src="https://github.com/user-attachments/assets/6eebfd42-94e7-4409-8068-3bbf9b68daa3" />
 
+<img width="1612" alt="Screenshot 2025-02-24 at 8 15 37 PM" src="https://github.com/user-attachments/assets/27d4d727-9fc9-4124-8c26-b385842bb274" />
 
 ### Best Practices
 
