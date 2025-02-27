@@ -15,7 +15,7 @@
 - [Advantages of Unit Testing](#advantages-of-unit-testing)
 - [Proof of Concept](#proof-of-concept-poc)
 - [Best Practices of Unit Testing](#best-practices-of-unit-testing)
-- [Recommendations / Conclusion](#Recommendations-/-Conclusion)
+- [Recommendations / Conclusion](#recommendation-and-conclusion)
 - [Contact](#Contact)
 - [References](#References)
 
@@ -132,6 +132,7 @@ Unit testing in Golang is efficient and straightforward due to its built-in test
 
 
 ## References
+
 - [Golang Official Testing Documentation](https://golang.org/pkg/testing/)
 - [Testify GitHub Repository](https://github.com/stretchr/testify)
 - [Ginkgo BDD Testing Framework](https://onsi.github.io/ginkgo/)
