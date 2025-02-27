@@ -71,9 +71,9 @@ Unit testing is a software testing technique where individual functions or compo
 | **Goconvey**       | A testing framework with a web-based UI and live results. | - Auto-refresh UI for real-time feedback<br>- BDD-style syntax | Writing tests with real-time feedback and an interactive UI. |
 | **httptest**       | A package in the standard library for testing HTTP servers and handlers. | - Provides `httptest.NewRecorder()` for response capture<br>- Simulates HTTP requests easily | Testing HTTP handlers, APIs, and server behavior. |
 
----
 
 ## Comparison of Different Tools
+
 | Tool         | Features                           | Pros                                      | Cons                                     |
 |-------------|----------------------------------|-------------------------------------------|------------------------------------------|
 | `testing`   | Built-in, simple, lightweight   | No external dependencies                 | Basic assertions only                    |
@@ -83,7 +83,7 @@ Unit testing is a software testing technique where individual functions or compo
 | Goconvey    | Live UI, automatic testing     | Real-time feedback                       | UI setup required                        |
 | httptest    | HTTP server testing            | Ideal for API testing                    | Specific to HTTP handlers                |
 
----
+
 
 ## Advantages of Unit Testing 
 
@@ -97,7 +97,6 @@ Unit testing is a software testing technique where individual functions or compo
 | **Continuous Integration Support** | Works seamlessly with CI/CD pipelines, ensuring automated testing and deployment. |
 
 
----
 
 ## Proof of Concept (POC)
 
