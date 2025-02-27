@@ -25,12 +25,12 @@
 ## Introduction
 Unit testing is a crucial aspect of software development that ensures individual components of an application function as expected. In Golang, unit testing is built into the standard library, making it easy to implement and maintain.
 
----
+
 
 ## What is Unit Testing?
 Unit testing is a software testing technique where individual functions or components of an application are tested independently to verify correctness. These tests help catch bugs early, improve code quality, and enhance maintainability.
 
----
+
 
 ## Why Unit Testing?
 - **Built-in Testing Package**: Golang provides a native `testing` package for writing and executing unit tests.
@@ -38,7 +38,7 @@ Unit testing is a software testing technique where individual functions or compo
 - **Automated Testing**: Supports automated test execution using `go test`.
 - **Benchmarking and Example Tests**: Built-in support for performance testing and documentation through examples.
 
----
+
 
 ## General Workflow
 
@@ -58,7 +58,7 @@ Unit testing is a software testing technique where individual functions or compo
 | **Generate HTML Report** | Convert the coverage profile to an HTML report for detailed visualization |
 | **Completion** | The flow is completed, and the necessary steps for testing and coverage analysis have been executed |
 
----
+
 
 ## Different Tools for Unit Testing
 
@@ -117,7 +117,6 @@ Unit testing is a software testing technique where individual functions or compo
 | **Measure Code Coverage**              | Use `go test -cover` to track how much code is tested. |
 | **Use Benchmarks for Performance Testing** | Implement `Benchmark` functions to measure execution speed. |
 
----
 
 ## Recommendation and Conclusion
 Unit testing in Golang is efficient and straightforward due to its built-in testing support. Choosing the right framework depends on project complexity and requirements. For general testing, the `testing` package suffices, while for advanced needs, `Testify` and `Ginkgo` offer enhanced features. 
