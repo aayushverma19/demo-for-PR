@@ -6,15 +6,15 @@
 
 ## Table of Contents
 
-- [Introduction](#Introduction)
-- [CI for Unit Testing](#CI-for-Unit-Testing)
-- [Unit Tests Generally Cover](#Unit-Tests-Generally-Cover)
-- [Why CI with Unit Testing is Important](#Why-CI-with-Unit-Testing-is-Important)
+- [Introduction](#introduction)
+- [What is Unit Testing?](#what-is-unit-testing)
+- [Why Unit Testing?](#why-unit-testing)
 - [General Workflow](#General-Workflow)
-- [Different Tools for CI and Unit Testing in Golang](#Different-Tools-for-CI-and-Unit-Testing-in-Golang)
-- [Comparison of CI Tools for Golang](#Comparison-of-CI-Tools-for-Golang)
-- [Advantages of CI with Unit Testing](#Advantages-of-CI-with-Unit-Testing)
-- [Best Practices for Golang Unit Testing in CI](#Best-Practices-for-Golang-Unit-Testing-in-CI)
+- [Different Tools for Unit Testing](#different-tools-for-unit-testing)
+- [Comparison of Different Tools](#comparison-of-different-tools)
+- [Advantages of Unit Testing](#advantages-of-unit-testing)
+- [Proof of Concept](#proof-of-concept-poc)
+- [Best Practices of Unit Testing](#best-practices-of-unit-testing)
 - [Recommendations / Conclusion](#Recommendations-/-Conclusion)
 - [Contact](#Contact)
 - [References](#References)
@@ -32,7 +32,7 @@ Unit testing is a software testing technique where individual functions or compo
 
 ---
 
-## Why Unit Testing in Golang?
+## Why Unit Testing?
 - **Built-in Testing Package**: Golang provides a native `testing` package for writing and executing unit tests.
 - **Performance and Simplicity**: Golang’s testing framework is lightweight and easy to use.
 - **Automated Testing**: Supports automated test execution using `go test`.
@@ -40,7 +40,27 @@ Unit testing is a software testing technique where individual functions or compo
 
 ---
 
-## Different Tools for Unit Testing in Golang
+## General Workflow
+
+
+
+**Description of Flow Diagram**
+
+| **Steps** | **Description** |
+| ------------- | --------------- |
+| **Directory** | Create a new directory named `Golang-testing` |
+| **Clone Git Repository** | Clone the Git repository `employee-API.git` into the current directory |
+| **Install Go** | Install Go programming language using the Snap package manager |
+| **Run Unit Tests** | Execute unit tests for the current codebase |
+| **Run All Tests** | Run tests recursively for all packages |
+| **Run Tests with Verbose and Coverage** | Execute tests with verbose output and coverage information |
+| **Generate Coverage Profile** | Create a coverage profile file `coverage.out` for further analysis |
+| **Generate HTML Report** | Convert the coverage profile to an HTML report for detailed visualization |
+| **Completion** | The flow is completed, and the necessary steps for testing and coverage analysis have been executed |
+
+---
+
+## Different Tools for Unit Testing
 
 | **Tool**            | **Description** | **Key Features** | **Use Cases** |
 |---------------------|-----------------------------------------------------|-----------------------------------------|----------------------------------------|
